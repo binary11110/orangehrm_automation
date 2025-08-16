@@ -2,7 +2,7 @@
 
 ## Project Overview
 This project automates UI testing for the [OrangeHRM demo site](https://opensource-demo.orangehrmlive.com/) using:
-- **Selenium WebDriver** (with option for Playwright or Shaft Engine)
+- **Selenium WebDriver** 
 - **Page Object Model (POM)** design pattern
 - **TestNG** test framework
 
