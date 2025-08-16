@@ -11,6 +11,10 @@ Key features:
 - Proper element synchronization with explicit waits
 - Comprehensive assertions for validation
 - Cross-browser support (Chrome/Firefox)
+## 🎬 Demo Video
+
+Watch the automation demo here:  
+[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
 
 ## Prerequisites
 
@@ -37,7 +41,7 @@ src/
 └── test/
     └── java/
         └── tests/       # TestNG test classes
-## Setup Instructions
+### Setup Instructions
 1. Clone the repository
     git clone <repository-url>
     cd <project-folder>
@@ -49,7 +53,7 @@ src/
 
     If not using WebDriverManager, download the browser driver (chromedriver/geckodriver) and add it to PATH
 
-## How to Run the Tests
+### How to Run the Tests
 Using TestNG
 
     1.Open testng.xml in your IDE
