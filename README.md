@@ -37,3 +37,27 @@ src/
 └── test/
     └── java/
         └── tests/       # TestNG test classes
+## Setup Instructions
+1. Clone the repository
+    git clone <repository-url>
+    cd <project-folder>
+
+2. Install dependencies
+    mvn clean install
+
+3. Configure WebDriver
+
+    If not using WebDriverManager, download the browser driver (chromedriver/geckodriver) and add it to PATH
+
+## How to Run the Tests
+Using TestNG
+
+    1.Open testng.xml in your IDE
+    
+    2.Run as TestNG Suite
+
+Using Maven CLI
+    mvn test
+
+Using Maven with TestNG XML
+    mvn test -DsuiteXmlFile=testng.xml
