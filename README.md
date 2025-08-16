@@ -14,7 +14,7 @@ Key features:
 ## 🎬 Demo Video
 
 Watch the automation demo here:  
-[![Watch Demo](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://youtu.be/VIDEO_ID)
+https://drive.google.com/file/d/12Qvup6U9UhgXC_Nx5r2-wkcE0admYoF4/view?usp=sharing
 
 ## Prerequisites
 
