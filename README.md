@@ -1,0 +1,39 @@
+# UI Automation Testing - OrangeHRM Web Application
+
+## Project Overview
+This project automates UI testing for the [OrangeHRM demo site](https://opensource-demo.orangehrmlive.com/) using:
+- **Selenium WebDriver** (with option for Playwright or Shaft Engine)
+- **Page Object Model (POM)** design pattern
+- **TestNG** test framework
+
+Key features:
+- Modular and maintainable code structure
+- Proper element synchronization with explicit waits
+- Comprehensive assertions for validation
+- Cross-browser support (Chrome/Firefox)
+
+## Prerequisites
+
+### Tools
+- Java JDK 8+ ([Download](https://www.oracle.com/java/technologies/javase-downloads.html))
+- Maven 3+ ([Download](https://maven.apache.org/download.cgi))
+- IDE (IntelliJ, Eclipse, or VS Code with Java support)
+- Google Chrome or Firefox
+
+### Dependencies
+Managed via Maven (`pom.xml`):
+- Selenium WebDriver
+- TestNG
+- WebDriverManager (for automatic driver management)
+- Hamcrest (for advanced assertions)
+
+## Project Structure
+```text
+src/
+├── main/
+│   └── java/
+│       ├── pages/        # Page Object classes
+│       └── utils/        # Helper classes and utilities
+└── test/
+    └── java/
+        └── tests/       # TestNG test classes
